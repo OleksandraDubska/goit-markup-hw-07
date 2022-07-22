@@ -1,0 +1,40 @@
+.features__item {
+    width: 270px;
+    min-height: 248px;
+}
+
+.features__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 30px;
+    width: 100%;
+    height: 120px;
+    border-radius: 4px;
+
+    background-color: var(--secondary-background-color);
+}
+
+.features__icon {
+    width: 70px;
+    height: 70px;
+}
+
+.features__subtitle {
+    margin-bottom: 10px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.features__description {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+    color: var(--secondary-text-color);
+}
