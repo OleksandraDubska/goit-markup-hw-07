@@ -7,12 +7,9 @@
         gap: 94px;
     }
 
-    &__site-nav {
-        display: flex;
-        gap: 50px;
-    }
-
+    &__site-nav,
     &__contact-list {
+        @extend %list;
         display: flex;
         gap: 50px;
     }

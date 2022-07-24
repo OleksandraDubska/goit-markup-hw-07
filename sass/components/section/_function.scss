@@ -1,14 +1,12 @@
 .function {
-    padding-top: 0;
+    padding-bottom: 94px;
 
-    &__title {
-        margin-bottom: 50px;
+    &__title {    
+        @extend %title;
+    }
 
-        text-align: center;
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.25;
-        letter-spacing: 0.03em;
+    &__list {
+        @extend %list;
     }
 
     &__item {

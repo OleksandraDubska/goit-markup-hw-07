@@ -1,4 +1,6 @@
 .socials {
+    @extend %list;
+    
     display: flex;
     justify-content: space-between;
     width: 206px;

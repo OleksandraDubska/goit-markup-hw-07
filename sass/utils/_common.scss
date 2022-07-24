@@ -4,11 +4,6 @@ body {
     background-color: var(--primery-background-color);
 }
 
-.section {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
-
 .container {
     width: 1200px;
     margin: 0 auto;
@@ -22,13 +17,22 @@ body {
     align-items: center;
 }
 
-.list {
-    margin: 0;
-    padding-left: 0;
-    list-style: none;
-}
-
 .link {
     text-decoration: none;
     color: inherit;
 }
+
+h1,
+h2,
+h3,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+

@@ -26,6 +26,9 @@
 
         color: var(--white-text-color);
     }
+    &__list {
+        @extend %list;
+    }
 
     &__place,
     &__item:not(:last-child) {

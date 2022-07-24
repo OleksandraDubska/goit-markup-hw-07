@@ -1,4 +1,10 @@
 .features {
+    @extend %section;
+
+    &__list {
+        @extend %list;
+    }
+    
     &__item {
         width: 270px;
         min-height: 248px;
