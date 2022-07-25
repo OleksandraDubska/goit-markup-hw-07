@@ -4,8 +4,7 @@
     &__button-filter {
         @extend %list;
 
-        display: flex;
-        justify-content: center;
+        @include centeredFlex();
         gap: 8px;
 
         margin-bottom: 50px;
@@ -13,6 +12,7 @@
 
     &__list {
         @extend %list;
+
         display: flex;
         flex-wrap: wrap;
     }
@@ -124,6 +124,8 @@
 .portfolio__link {
     display: block;
     width: 100%;
+
+    @extend %link;
 
     transition: box-shadow var(--duration) var(--timing-function);
 

@@ -8,6 +8,7 @@
 
     &__list {
         @extend %list;
+        @include centeredFlex($main: space-between);
     }
 
     &__card {

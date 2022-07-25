@@ -3,6 +3,7 @@
 
     &__list {
         @extend %list;
+        @include centeredFlex($main: space-between);
     }
     
     &__item {
@@ -11,9 +12,7 @@
     }
 
     &__image {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include centeredFlex();
 
         margin-bottom: 30px;
         width: 100%;
