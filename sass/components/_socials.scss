@@ -1,4 +1,6 @@
 .socials {
+    margin-left: auto;
+    margin-right: auto;
     @extend %list;
     
     @include centeredFlex($main: space-between);
